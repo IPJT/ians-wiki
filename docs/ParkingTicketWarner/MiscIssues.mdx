@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Misc Encountered Challanges
 
-## Executing an .exe from a function app
+## Executing an .exe (Windows executable) from a function app
 
 I didn't have any issues having the function execute the .exe when running it locally. However, when publishing the function to an Azure Function App I had trouble publishing the .exe itself and sucessfully referencing it from the code now running on the function app. Key was to make sure the executable was properly [copied to the debug/release folder](https://social.technet.microsoft.com/wiki/contents/articles/53248.visual-studio-copying-files-to-debug-or-release-folder.aspx):
 
