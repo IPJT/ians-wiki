@@ -22,4 +22,7 @@ git init <directory>
 git push --force
 ```
 
+![Cheatsheet1](/img/cheatsheet1.png)
+![Cheatsheet2](/img/cheatsheet2.png)
+
 [Additional commands](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
