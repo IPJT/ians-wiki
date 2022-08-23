@@ -11,14 +11,14 @@ The code below shows how an object can be created using the object initializer s
 
 ```js
 const a = "city";
-const b = "Sweden";
+const b = "Stockholm";
 
 const exampleObject = {
   firstName: "Ian", //key is valid JS identifier - will evaluate as sting
   lastName: "Thorslund", //key is a string
   ["age"]: 1, //key is a string
-  [a]: "Stockholm", //a will evaluate as "city" at runtime
-  [Symbol.for("country")]: b, //key value is a Symbol value. Note that the value should not be enclosed in brackets to be computed and evaluated as "Sweden"
+  [a]: b, //a will evaluate as "city" at runtime (see "Computed property names"-section). Note that the value should not be enclosed in brackets to be computed and evaluated as "Sweden"
+  [Symbol.for("country")]: "Sweden", //key value is a Symbol value.
 };
 
 console.log(Object.getOwnPropertyNames(testObject)); // ["firstName", "lastName", "age", "city"] in which the typeof of each entry is"string"
