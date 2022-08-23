@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7967],{5138:e=>{e.exports=JSON.parse('{"label":"greetings","permalink":"/ians-wiki/blog/tags/greetings","allTagsPath":"/ians-wiki/blog/tags","count":1}')}}]);

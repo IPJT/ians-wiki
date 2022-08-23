@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6146],{3221:e=>{e.exports=JSON.parse('{"title":"Git","slug":"/category/git","permalink":"/ians-wiki/docs/category/git","navigation":{"previous":{"title":"Objects","permalink":"/ians-wiki/docs/Javascript/Object"},"next":{"title":"Cheatsheet","permalink":"/ians-wiki/docs/Git/Quick reference"}}}')}}]);
