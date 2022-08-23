@@ -10,21 +10,22 @@ In JavaScript, objects can be seen as a collection of properties. Proerties are 
 The code below shows how an object can be created using the object initializer syntax with different ways to declare property names.
 
 ```js
-a = "city";
+const a = "city";
+const b = "Sweden";
 
 const exampleObject = {
   firstName: "Ian", //key is valid JS identifier - will evaluate as sting
   lastName: "Thorslund", //key is a string
   ["age"]: 1, //key is a string
   [a]: "Stockholm", //a will evaluate as "city" at runtime
-  [Symbol.for("country")]: "sweden", //key value is a Symbol value
+  [Symbol.for("country")]: b, //key value is a Symbol value. Note that the value should not be enclosed in brackets to be computed and evaluated as "Sweden"
 };
 
 console.log(Object.getOwnPropertyNames(testObject)); // ["firstName", "lastName", "age", "city"] in which the typeof of each entry is"string"
 console.log(Object.getOwnPropertySymbols(testObject)); // [Symbol(country)] in which the typeof of the entry is "symbol"
 ```
 
-As can be seen above each property in the created object is identified using a key value that is either a String value or a Symbol value.
+As seen above each property in the created object is identified using a key value that is either a String value or a Symbol value.
 
 ## Computed property names
 
