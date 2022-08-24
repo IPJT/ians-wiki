@@ -29,11 +29,11 @@ const filteredArrayFail2 = [1, 2, 3, 4, 5, 6].filter(
 console.log(filteredArrayFail2); //prints: [1, 2, 3, 4, 5, 6]
 ```
 
-This is due to the callback functions `(num) => isEven(num)` and `async (num) => await isEven(num)` being async and thus being resolved as promises. Due to a promise being thruthy, no filtering takes place.
+This is due to the callback functions `(num) => isEven(num)` and `async (num) => await isEven(num)` being resolved as promises for all elements in the array. Due to a promise being thruthy, no filtering takes place.
 
 Instead, we use the following approach to achieve the wanted filtering.
 
-1. Use map() to project each element in the array into a promise that resolves to either the initial value or an empty array (depending on the filtering function)
+1. Use map() to project each element in the array into a promise that resolves to either the element value or an empty array (depending on the filtering function)
 2. Await all the promises within the array using `await Promise.all(array)`
 3. Use flat() to get rid of the empty arrays within the array
 
