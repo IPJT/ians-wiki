@@ -11,6 +11,10 @@ sidebar_position: 2
 slice(mutate?, return?)
 splice (mutates?, return?)
 
+## Conditional element
+
+[todo](https://stackoverflow.com/questions/44908159/how-to-define-an-array-with-conditional-elements)
+
 ## Async filtering
 
 If we have an array that we would like to filter using an async filter function the following **does not** work:
