@@ -13,3 +13,8 @@ See this [link](https://www.freecodecamp.org/news/mutating-objects-what-will-be-
 In short, the difference between the two operators comes down to the difference between falsy and null/undefined. The nullish coalescing operator (??) takes the right operand only when the left side is set to null or undefined whereas the the logical or operator (||) takes the right operand in the case of a falsy value — which includes empty string, 0, false, NaN, etc. Having said that, we could think of the ?? operator as subset of the ||.
 if
 ![A few examples that showcases the differences](/img/logical_or_operator.png)
+
+## Cancellation patterns (stopping previosuly called async functions when re-triggered)
+
+[JS](https://stackoverflow.com/questions/63187306/any-way-to-stop-previous-async-loop-when-clicking-button-again)
+[Cancelling a Promise with React.useEffect](https://juliangaramendy.dev/blog/use-promise-subscription)
