@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "My site",
+  tagline: "My personal wiki and other fun/usefull stuff",
   url: "https://github.com",
   baseUrl: "/ians-wiki/",
   onBrokenLinks: "throw",
@@ -65,18 +65,12 @@ const config = {
         },
       },
       navbar: {
-        title: "Ians site",
+        title: "Start",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/favicon.ico",
         },
         items: [
-          {
-            type: "doc",
-            docId: "Tutorial/intro",
-            position: "left",
-            label: "Docosaurus Tutorial",
-          },
           {
             type: "docSidebar",
             position: "left",

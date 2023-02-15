@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Misc Encountered Challanges
+# Misc Encountered Challenges
 
 ## Executing an .exe (Windows executable) from a function app
 

@@ -1,0 +1,8 @@
+{
+  "label": "Personal Wiki",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "Welcome to my personal wiki. Here you'll find links to assets I've considered worth saving and misc notes"
+  }
+}
